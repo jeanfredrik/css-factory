@@ -1,0 +1,30 @@
+{
+  "name": "css-factory",
+  "description": "Factory functions for functional CSS",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "author": "jeanfredrik <jeanfredrik@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "jest --watchAll",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-jest": "^20.0.3",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.5.2",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jest": "^20.0.3",
+    "jest": "^20.0.4"
+  },
+  "dependencies": {
+    "common-tags": "^1.4.0",
+    "decurry": "^2.0.0",
+    "lodash": "^4.17.4",
+    "postcss": "^6.0.4"
+  }
+}
