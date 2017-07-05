@@ -1,7 +1,7 @@
 {
   "name": "css-factory",
   "description": "Factory functions for functional CSS",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "author": "jeanfredrik <jeanfredrik@gmail.com>",
   "license": "MIT",
